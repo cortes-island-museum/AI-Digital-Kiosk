@@ -1,0 +1,28 @@
+# Files that stay on this computer and are NOT published to GitHub.
+# (Everything not listed here IS published.)
+
+# Mac system files
+.DS_Store
+
+# Backups and copies
+_backup*/
+*copy.html
+*-backup.html
+
+# Private / internal documents
+Claude outputs/
+*.docx
+*.xlsx
+
+# Kiosk-only launch scripts (not needed on the web)
+kiosk_server.py
+launch_kiosk.bat
+serve_kiosk.ps1
+test_on_mac.command
+README_kiosk_setup.md
+
+# Spare photos not used by either CSV
+assets/photos/*-spare.jpg
+assets/photos/*-orig.jpg
+assets/photos/*-old.jpg
+assets/photos/c-arts-copy.jpg
